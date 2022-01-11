@@ -1,32 +1,54 @@
-Progressus - Free business/corporate Bootstrap template
-=============
+# jekyll-uno
 
-Progressus is a free, responsive, nice-looking business template based on Bootstrap HTML/CSS framework. 
+Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
 
+> :warning:
+  This theme requires ruby and rubygems installed
 
-License
--------
-**Creative Commons Attribution 3.0** - http://creativecommons.org/licenses/by/3.0/
+### Features
 
+* Clean layout
+* Resposive layout
+* Pagination
+* Syntax highlighting
+* Social links
+* Tags listing page
+* Categories listing page
+* Google Analytics integration
+* Disqus integration
 
-Features
------------
+---
 
-* Easy to use, fat-free HTML and CSS code.
-* 7 ready-made templates for most common tasks
-* Responsive design
-* High overral quality, the template does worth to be premium.
+### Install and Test
 
+1. Download or clone repo `git clone git@github.com:joshgerdes/jekyll-uno.git`
+2. Enter the folder: `cd jekyll-uno/`
+3. If you don't have bundler installed: `gem install bundler`
+3. Install Ruby gems: `bundle install`
+4. Start Jekyll server: `bundle exec jekyll serve --watch`
 
-Bug tracker
------------
+Access via: [http://localhost:4000/jekyll-uno/](http://localhost:4000/jekyll-uno/)
 
-Found a bug? Please create an issue here on GitHub! 
-https://github.com/pozh/Progressus/issues
+If you would like to run without using the `github-pages` gem, update your Gemfile to the following:
 
+```
+source 'https://rubygems.org'
+gem 'jekyll-paginate'
+gem 'jekyll-watch'
+gem 'kramdown'
+gem 'kramdown-parser-gfm'
+```
+---
 
-Credits
--------
-* Design and development: **Sergey Pozhilov** - http://pozhilov.com
-* Photos used in template: **Unsplash** - http://unsplash.com
-* More free templates by Sergey: http://gettemplate.com
+### Demo and Download
+
+[Demo](http://joshgerdes.com/jekyll-uno/)
+[Download](https://github.com/joshgerdes/jekyll-uno/archive/master.zip)
+
+![jekyll-uno - free Jekyll theme](/screenshot.png)
+
+---
+
+### Copyright and license
+
+It is under [the MIT license](/LICENSE).
